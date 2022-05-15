@@ -1,0 +1,50 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hello{
+    font-family: 'Satisfy', cursive;
+    font-size: 120px;
+    margin: 4px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+}
+.boxes{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background: #277bdc;
+    color: white;
+
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+
+    align-items: center;
+    justify-content: space-between;
+
+
+    width: 180px;
+    height: 30px;
+    padding: 18px 10px;
+    margin: 4px;
+}
+.button:hover{
+    background-color: #3180dbd9;
+}
+.img-mini{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4px;
+}
+.invert-color{
+    filter: invert(1);
+}
