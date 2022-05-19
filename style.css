@@ -1,16 +1,17 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    background-color: #25688e6f;
 }
-.hello{
-    font-family: 'Satisfy', cursive;
-    font-size: 120px;
-    margin: 4px;
-}
+
+/* Для Адаптивной истории  */
+
+
 .container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     justify-items: center;
+    align-content: center;
 }
 .boxes{
     display: flex;
@@ -18,32 +19,114 @@ body{
     justify-content: center;
     align-items: center;
 }
-.button{
-    background: #277bdc;
+
+/* Приветсвие + анимация*/
+
+.hello{
+    font-size: 15vh;
+    margin: 4px;
     color: white;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;   
+    
+    height: 12vh;
+}
 
+.content::before {
+    content: "Hello";
+    color: white;
+    animation: animate 0.5s 1 ease-in;
+  }
+  
+  @keyframes animate {
+    0% {
+        content: "H";
+    }
+    25% {
+        content: "He";
+    }
+    50% {
+        content: "Hel";
+    }
+    75% {
+        content: "Hell";
+    }
+    100% {
+        content: "Hello";
+    }
+  }
+
+
+/* Смайолик + анимация */
+
+.smile{
+    font-size: 10vh;
+    padding-bottom: 30px;
+    
+}
+.smile img{
+    width: 0vh;
+    /* animation-name: smile-svg;
+    animation-delay: 5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; */
+    animation: smile-svg 0.5s 0.5s 1 normal forwards;
+
+
+}
+
+
+@keyframes smile-svg{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 10vh;
+        rotate: 30deg;
+    }
+    100%{
+        width: 10vh;
+        rotate: 30deg;
+
+
+    }
+}
+
+
+/* Кнопки */
+
+.card__btn{
+    font-family: 'Ubuntu', sans-serif;
+    width: 250px;
+    height: 60px;
+    background: #277bdc;
     font-size: 18px;
-    text-decoration: none;
-    text-align: center;
 
-    align-items: center;
-    justify-content: space-between;
+    border-color: transparent;
 
-
-    width: 180px;
-    height: 30px;
-    padding: 18px 10px;
+    padding: 10px 10px;
     margin: 4px;
 }
-.button:hover{
+.card__btn:hover{
     background-color: #3180dbd9;
 }
-.img-mini{
+.card__link{
+    text-decoration: none;
+    color: white;
+
+    display: inline-flex;
+    align-items: center;
+    
+}
+.card__img{
     height: 40px;
     width: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 4px;
+    
+    display: inline-flex;
+    align-items: center;
+    padding-left: 6px;
+    
 }
 .invert-color{
     filter: invert(1);
