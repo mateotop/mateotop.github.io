@@ -249,7 +249,8 @@ body{
     cursor: pointer;
 }
 .card:hover{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 10px 10px #c5c5c5;
 }
 .card__title{
     margin-left: 20px;
