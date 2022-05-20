@@ -5,6 +5,12 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+@media (min-width:2160px) {
+    body{
+        width: 1440px;
+        margin-left: 30%;
+    }
+}
 .header{
     width: 100%;
     box-sizing: border-box;
