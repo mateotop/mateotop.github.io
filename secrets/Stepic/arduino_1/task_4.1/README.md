@@ -11,5 +11,5 @@
 
 **_Grand Wluff-Migelo.png_** - картинка схемы с сайта. <br> На сайте прям к 3д модельке Arduino подключаешь провода и всякие приборы, потом пишеь код и сайт симулирует работу арудино и говорит, если вдруг что-то не так. <p>
 
-![alt text](https://github.com/mateotop/mateotop.github.io/blob/main/coffee_site/Stepic/arduino_1/task_4.1/Grand_Wluff-Migelo.png?raw=true)
+![alt text](https://github.com/mateotop/mateotop.github.io/blob/main/secrets/Stepic/arduino_1/task_4.1/Grand_Wluff-Migelo.png?raw=true)
 
