@@ -2,7 +2,7 @@
 
 Это из курса "Рзработка умных устройств на базе арудино". <br>
 Задание 4.1 https://stepik.org/lesson/594986/step/3 <br>
-Ссылка в TinkerCad https://www.tinkercad.com/things/dzgeleYKFy0-grand-wluff-migelo/editel?sharecode=ugvpRFzjCWGiPnSbHhCxnI9DFSTlv25TgM65fHBbn9Y <p>
+Ссылка в  [TinkerCad](https://www.tinkercad.com/things/dzgeleYKFy0-grand-wluff-migelo/editel?sharecode=ugvpRFzjCWGiPnSbHhCxnI9DFSTlv25TgM65fHBbn9Y) <p>
 Мое первое занкомтсво с C++ в Arduino. <p>
 Разрабатывал это все в **_TinkerCad_**. <br>
 **_TinkerCad_** - это web приложение от компании autodesk, позволяет моделировать 3д модели, платы(схемы) и код. <p>
