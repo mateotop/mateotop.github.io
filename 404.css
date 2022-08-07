@@ -1,0 +1,41 @@
+/* ------------ 404 css styles ------------ */
+*{
+    background-color: #0d1117;
+}
+body{
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    border-bottom: 1px solid #c9d1d9;
+    /* height: 20px; */
+    padding: 20px;
+    font-size: 40px ;
+    font-weight: 1000;
+}
+.txt-404{
+    color: white;
+}
+.green-404{
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Для Адаптивной истории  */
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
