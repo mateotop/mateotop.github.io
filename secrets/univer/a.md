@@ -315,8 +315,8 @@ blackbg {background-color: black}
 | ------------- | ---------- | - | ------------ | ---------- |
 | IT            | 421 - 1015 |  | Trading      | 277 - 559  |
 | Design        | 501 - 674  |  | Beauty       | 297 - 584  |
-| Marketing     | 470 - 441  |  | Production   | 352 - 654  |
-| Accounting    | 881 - 654  |  | Transport    | 257 - 634  |
+| Marketing     | 441 - 470  |  | Production   | 352 - 654  |
+| Accounting    | 381 - 654  |  | Transport    | 257 - 634  |
 | Office        | 322 - 762  |  | Construction | 337 - 832  |
 | Jurisprudence | 307 - 2958 |  | Safety       | 426 - 1249 |
 | Education     | 307 - 2713 |  | Agricultural | 361 - 460  |
